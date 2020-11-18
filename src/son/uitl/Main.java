@@ -43,4 +43,4 @@ public class Main {
 //nó sẽ khác nhau tùy diwj án tùy vào IDE mình xài , ngôn ngứ lập trình mình xài
 //có 1 gã dev cực dễ thương, làm sẵn nhưng file unsgws với idem nnlt rồi
 //xin anh ấy dem về xài
-//http://gitingore.io
+//http://gitignore.io
