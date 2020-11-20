@@ -40,5 +40,6 @@ public class MathUtilityTest {
     public void getFactorial_ThrowsException_IfInvalidArgumet() {
         MathUtility.getFactorial(-5);
     }
+    // tui muốn thấy mau xanh trên server, thấy tích xanh luôn
 
 }
