@@ -5,7 +5,6 @@
  */
 package son.util.test;
 
-import java.sql.SQLException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import son.uitl.MathUtility;
@@ -37,7 +36,7 @@ public class MathUtilityTest {
 //    noai lệ Exception ko phải là 1 value để mà so sánh
 //    do đó dùng hàm asserX() là ko dc, vid ko là value để so
 //    ta phải dung kĩ thuật kahcs
-    @Test(expected = SQLException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void getFactorial_ThrowsException_IfInvalidArgumet() {
         MathUtility.getFactorial(-5);
     }
